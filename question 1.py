@@ -1,4 +1,4 @@
-user_input=input('enter name in camalCase:')
+user_input=input('Enter your name in camalCase: ')
 def convert_to_snake(user_input):
     word = " "
     snake = " "
