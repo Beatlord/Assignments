@@ -9,7 +9,7 @@ def soda_price():#defining the function
         for bot in range(1, bt): #checking if the price is equal to the required price
             if price > r_price:
                 ret = price - r_price #calculating the change
-                print(f'Thank you for your payment of {bot_num} bottles, enjoy your drink! Your change is: {ret} ') #thanking the customer
+                print(f'Thank you for your payment of {bot_num} bottles, enjoy your drink! Your change is: {ret} coins ') #thanking the customer and informing them the change
             elif price == r_price:
                 print(f'Thank you for your payment of {bot_num} bottles, enjoy your drink!') #thanking the customer
                 break
